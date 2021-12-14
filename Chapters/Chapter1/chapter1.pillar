@@ -3,7 +3,11 @@
 Pharo Catalog is an effort to assemble online accessible projects written for Pharo programming system in a way 
 that they are easily accessible in a kind of central registry.
 
+The project is hosted on:
+
  *https://github.dev/pharo-catalog*
+
+GitHub organization.
 
 This booklet will describe the basic mechanisms behind Pharo Catalog.
 
