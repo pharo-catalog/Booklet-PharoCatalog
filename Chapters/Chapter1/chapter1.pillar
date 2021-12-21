@@ -9,5 +9,22 @@ The project is hosted on:
 
 GitHub organization.
 
-This booklet will describe the basic mechanisms behind Pharo Catalog.
+This booklet will describe the basic mechanisms behind the Pharo Catalog idea.
+
+
+!!! Installation
+
+The current WIP ("Work-In-Proess") variant of Pharo catalog can be loaded from the 
+
+```Smalltalk
+Metacello new
+    baseline: 'NewTools';
+    repository: 'github://astares/NewTools:Implement-Catalog';
+    onConflict: [ :e | e useIncoming ];
+    onUpgrade: [ :e | e useIncoming ];
+    ignoreImage;
+    load: #('NewTools-Catalog' 'NewTools-Catalog-Tests')
+```
+
+
 
