@@ -5,7 +5,7 @@ that they are easily accessible in a kind of central registry.
 
 The project is hosted on:
 
- *https://github.dev/pharo-catalog*
+ *https://github.com/pharo-catalog*
 
 GitHub organization.
 
@@ -16,7 +16,7 @@ This booklet will describe the basic mechanisms behind the Pharo Catalog idea.
 
 The current WIP ("Work-In-Proess") variant of Pharo catalog can be loaded from the 
 
-```Smalltalk
+[[[language=Smalltalk
 Metacello new
     baseline: 'NewTools';
     repository: 'github://astares/NewTools:Implement-Catalog';
@@ -24,7 +24,9 @@ Metacello new
     onUpgrade: [ :e | e useIncoming ];
     ignoreImage;
     load: #('NewTools-Catalog' 'NewTools-Catalog-Tests')
-```
+]]]
 
 
 
+
++Installation on iOS.>file://figures/pwa_ios_installation.png|width=60|label=refreshed+
